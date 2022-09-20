@@ -11,7 +11,9 @@ body{
 
 #wrapper{
     position: relative;
-    width: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     height: 550px;
     margin: 0 auto;
     background: #1F2937;
@@ -23,14 +25,14 @@ body{
 
 #header{
   position: absolute;  
-width: 354px;
+width: 50%;
 height: 80px;
 left: 52px;
 top: 85px;
 font-family: 'Karla';
 font-style: normal;
 font-weight: 800;
-font-size: 40px;
+font-size: 2.5em;
 line-height: 35px;
 letter-spacing: -0.025em;
 color: #FFFFFF;
@@ -39,14 +41,14 @@ color: #FFFFFF;
 
 #paragraph{
     position: absolute;  
-width: 372px;
+width: 50%;
 height: 28px;
 left: 52px;
 top: 175px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.25em;
 line-height: 35px;
 color: #D5D4D8;
 }
@@ -59,12 +61,12 @@ align-items: center;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 1.25em;
 line-height: 24px;
 color: #FFFFFF;
 padding: 9px 17px 9px 15px;
 gap: 12px;
-width: 191px;
+width: 45%;
 height: 42px;
 left: 52px;
 top: 284px;
@@ -74,7 +76,7 @@ border-radius: 6px;
 }
 #wrapper hr{
     position: absolute;
-width: 446px;
+width: 75%;
 height: 0px;
 left: 52px;
 top: 361px;
@@ -89,17 +91,18 @@ color:#10B981;
    grid-template-columns: 1fr 1fr;
     top: 461px;
     left:52px;
+    width: 80%;
     
 }
 
 .output{
     position: relative;
-    width: 180px;
+    width: 90%;
 height: 32px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1em;
 line-height: 32px;
 text-align: center;
 color: #55F991;
@@ -110,27 +113,87 @@ letter-spacing: 2.5px;
 button:active{
     transform: translateY(4px);
 }
-
-
-@media screen and (max-width:680px){
-    #wrapper{
-        width:400px;
-        height: 520px;
+@media screen and (max-width:740px){
+    html{
+        font-size: 14px;
     }
     #output{
         display: block;
         top: 400px;
     }
-    #wrapper hr{
-        width: 300px;
-    }
     .output{
-        width: 305px;
-        letter-spacing: 3px;
+        width: 95%;
     }
+}
+@media screen and (max-width:694px){
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:555px){
+    html{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:472px){
+    html{
+        font-size: 9px;
+    }
+}
 
-   
+
+@media screen and (max-width:412px){
+    html{
+        font-size: 8px;
+    }
+    #output{
+        left: 30px;
+    }
+    #wrapper hr{
+        left: 30px;
+    }
+    #paragraph{
+        left: 30px;
+    }
+    #header{
+        left: 30px;
+    }
+    #btn{
+        left: 30px;
+    }
 
 }
+
+
+@media screen and (max-width:370px){
+    html{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:324px){
+    html{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:278px){
+    html{
+        font-size: 5px;
+    }
+}
+@media screen and (max-width:234px){
+    html{
+        font-size: 3px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
